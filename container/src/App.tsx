@@ -1,7 +1,7 @@
 import React from 'react';
 import {Box, Typography, Link} from "@mui/material";
 
-const TestComponent = React.lazy(() => import('admin/TestComponent'));
+const TestComponent = React.lazy(() => import('client/TestComponent'));
 
 function App() {
   return (

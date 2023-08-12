@@ -35,7 +35,7 @@ module.exports = (env) => {
                 name: 'container',
                 filename: "remoteEntry.js",
                 remotes: {
-                    admin: 'admin@http://localhost:3001/remoteEntry.js',
+                    client: 'client@http://localhost:3001/remoteEntry.js',
                 },
                 shared: {
                     ...deps,

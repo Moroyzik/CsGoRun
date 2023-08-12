@@ -1,6 +1,6 @@
 ///<reference types="react" />
 
-declare module 'admin/TestComponent' {
+declare module 'client/TestComponent' {
     const TestComponent: React.ComponentType;
 
     export default TestComponent;

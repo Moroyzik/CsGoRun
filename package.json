@@ -3,8 +3,9 @@
   "private": true,
   "workspaces": {
     "packages": [
-      "container",
-      "admin"
+      "admin",
+      "client",
+      "container"
     ]
   },
   "scripts": {
